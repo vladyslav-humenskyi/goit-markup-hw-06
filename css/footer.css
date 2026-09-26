@@ -1,0 +1,128 @@
+.footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  max-width: 264px;
+}
+
+.footer-socials {
+  margin-right: 80px;
+}
+
+.footer-socials-title {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer .socials-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer .socials {
+  gap: 16px;
+  justify-content: center;
+}
+
+.footer .socials-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.socials-link.green:hover,
+.socials-link.green:focus {
+  background-color: #31d0aa;
+}
+
+.subscribe-container {
+  margin-left: auto;
+}
+
+.footer-subscribe-caption {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-subscribtion-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-subscribtion-input {
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
+  color: #fff;
+  font-size: 12px;
+  background-color: transparent;
+  outline: transparent;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-subscribtion-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-subscribtion-input::placeholder {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.subscribe-btn {
+  display: inline-flex;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  max-width: 165px;
+
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: #4d5ae5;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.subscribe-btn:focus,
+.subscribe-btn:hover {
+  background-color: #31d0aa;
+}
+
+.socials-icon {
+}
