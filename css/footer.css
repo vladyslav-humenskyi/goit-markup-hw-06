@@ -77,7 +77,7 @@
 }
 
 .footer-subscribtion-input {
-  width: 100%;
+  width: 288px;
   height: 40px;
   padding: 8px 16px;
 
@@ -180,7 +180,7 @@
   }
 
   .footer-subscribtion-input {
-    width: 100%;
+    width: 264px;
   }
 }
 
@@ -219,7 +219,6 @@
 
   .subscribe-container {
     margin-left: auto;
-    margin-left: 0;
   }
 
   .footer-subscribe-caption {
@@ -229,9 +228,5 @@
   .footer-subscribtion-form {
     flex-direction: row;
     gap: 24px;
-  }
-
-  .footer-subscribtion-input {
-    width: 264px;
   }
 }

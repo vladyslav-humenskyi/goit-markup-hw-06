@@ -22,7 +22,7 @@
   font-size: 36px;
   line-height: 1.11;
   color: #fff;
-  max-width: 496px;
+  max-width: 216px;
 }
 
 .hero-button {
@@ -55,6 +55,7 @@
   }
 
   .hero-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
   }
