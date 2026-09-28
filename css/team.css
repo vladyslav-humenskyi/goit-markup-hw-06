@@ -48,9 +48,10 @@
     flex-direction: row;
     flex-wrap: wrap;
 
-    justify-content: center;
     width: 78%;
+    margin: 0 auto;
 
+    justify-content: center;
     column-gap: 24px;
     row-gap: 64px;
   }
@@ -62,6 +63,7 @@
 
 @media only screen and (min-width: 1158px) {
   .team-list {
+    width: 100%;
     column-gap: 24px;
   }
 
